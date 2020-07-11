@@ -37,5 +37,5 @@ function reset() {
     min = 0;
     sec = 0;
     miliSec = 0;
-    
+    document.getElementById("timer").innerHTML = min + ":" + sec + ":" + miliSec;
 }
